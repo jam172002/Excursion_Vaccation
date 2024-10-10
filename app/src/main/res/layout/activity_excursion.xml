@@ -5,6 +5,11 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/tv_vacccation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vaccation Title" />
     <EditText
         android:id="@+id/edit_excursion_title"
         android:layout_width="match_parent"

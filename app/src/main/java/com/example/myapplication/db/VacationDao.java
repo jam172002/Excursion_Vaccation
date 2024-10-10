@@ -10,7 +10,7 @@ import java.util.List;
 @Dao
 public interface VacationDao {
     @Insert
-    void insert(Vacation vacation);
+    Long insert(Vacation vacation);
 
     @Update
     void update(Vacation vacation);
