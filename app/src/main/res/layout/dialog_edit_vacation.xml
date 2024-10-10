@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vacation Title" />
+
+    <EditText
+        android:id="@+id/edit_text_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hotel" />
+
+    <EditText
+        android:id="@+id/edit_text_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date" />
+
+    <EditText
+        android:id="@+id/edit_text_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Date" />
+</LinearLayout>
